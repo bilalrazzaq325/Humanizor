@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://humanizor.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://humanizor.com/about.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://humanizor.com/blog.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://humanizor.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://humanizor.com/privacy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://humanizor.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://humanizor.com/blog/how-to-humanize-ai-text.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://humanizor.com/blog/ai-writing-detection.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://humanizor.com/blog/paraphrasing-techniques.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://humanizor.com/blog/chatgpt-writing-tips.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://humanizor.com/blog/academic-writing-ai.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://humanizor.com/blog/tone-in-writing.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>

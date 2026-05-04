@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How AI Detection Tools Work — and What They Actually Detect (2025)</title>
+  <meta name="description" content="A clear, honest look at how AI detection tools like GPTZero, Turnitin, and Originality.ai work, what they actually measure, and their real-world accuracy." />
+  <meta name="keywords" content="how AI detection works, GPTZero, Turnitin AI detection, Originality.ai, AI content detector, bypass AI detection" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://humanizor.com/blog/ai-writing-detection.html" />
+  <meta property="og:title" content="How AI Detection Tools Work — and What They Actually Detect" />
+  <meta property="og:type" content="article" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="../style.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5536166511863260" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How AI Detection Tools Work — and What They Actually Detect",
+    "author": { "@type": "Organization", "name": "Humanizor" },
+    "publisher": { "@type": "Organization", "name": "Humanizor" },
+    "datePublished": "2025-01-08",
+    "mainEntityOfPage": "https://humanizor.com/blog/ai-writing-detection.html"
+  }
+  </script>
+  <style>
+    .article-header { max-width: var(--max-w-prose); margin: 0 auto; padding: 3.5rem 1.5rem 1.5rem; }
+    .article-cat { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--green-dark); margin-bottom: 0.8rem; }
+    .article-header h1 { font-family: var(--font-serif); font-weight: 300; font-size: clamp(28px, 5vw, 44px); line-height: 1.12; letter-spacing: -0.025em; color: var(--ink); margin-bottom: 1rem; }
+    .article-meta { font-size: 13px; color: var(--ink-4); display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem; }
+    .article-intro { font-size: 17px; color: var(--ink-3); line-height: 1.75; max-width: var(--max-w-prose); margin: 0 auto 1rem; padding: 0 1.5rem; border-left: 3px solid var(--green); padding-left: 1.5rem; }
+    .tool-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 14px; }
+    .tool-table th { background: var(--surface-3); padding: 10px 14px; text-align: left; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-3); border-bottom: 2px solid var(--border-strong); }
+    .tool-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); color: var(--ink-2); vertical-align: top; }
+    .tool-table tr:last-child td { border-bottom: none; }
+    .cta-box { background: var(--green-light); border: 1px solid #b2e8d6; border-radius: var(--radius); padding: 1.75rem; text-align: center; margin: 2rem 0; }
+    .cta-box h3 { font-family: var(--font-serif); font-size: 22px; font-weight: 400; color: var(--ink); margin-bottom: 0.6rem; }
+    .cta-box p { font-size: 14px; color: var(--ink-3); margin-bottom: 1.25rem; }
+    .blog-nav { max-width: var(--max-w-prose); margin: 0 auto; padding: 0 1.5rem 3rem; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .blog-nav a { font-size: 13.5px; color: var(--green-dark); text-decoration: none; }
+    .blog-nav a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar" role="navigation">
+  <a href="/" class="nav-brand"><div class="nav-logo">H</div><span class="nav-name">Humanizor</span></a>
+  <ul class="nav-links">
+    <li><a href="/">Tool</a></li>
+    <li><a href="../blog.html" class="active">Blog</a></li>
+    <li><a href="../about.html">About</a></li>
+    <li><a href="../contact.html">Contact</a></li>
+    <li><a href="/#tool" class="nav-cta">Try Free</a></li>
+  </ul>
+</nav>
+
+<div class="article-header">
+  <div class="article-cat">AI Detection · 6 min read</div>
+  <h1>How AI Detection Tools Work — and What They Actually Detect</h1>
+  <div class="article-meta"><span>By the Humanizor Team</span><span>January 8, 2025</span><span>6 min read</span></div>
+</div>
+
+<p class="article-intro">AI detection tools are everywhere now — Turnitin, GPTZero, Originality.ai, and dozens more. But how do they actually work? What do they measure? And how accurate are they really? This article cuts through the hype with a clear, honest look at the technology.</p>
+
+<div class="ad-slot">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5536166511863260"
+    data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<div class="prose">
+
+  <h2>The two core signals: perplexity and burstiness</h2>
+  <p>Most AI detection tools rely on two core statistical signals derived from language model research.</p>
+
+  <h3>Perplexity</h3>
+  <p>Perplexity measures how "surprising" a piece of text is to a language model. When an AI writes text, it naturally chooses high-probability, low-surprise word sequences — the words that statistically fit best in context. This produces low-perplexity text. Human writers, by contrast, make unexpected word choices, use unusual structures, and take creative risks — producing higher-perplexity text overall.</p>
+  <p>Detection tools measure this: low perplexity suggests AI authorship; high perplexity suggests human authorship.</p>
+
+  <h3>Burstiness</h3>
+  <p>Burstiness refers to variation in sentence length and complexity. Human writing is "bursty" — we write long complex sentences, then short punchy ones, then medium ones. AI writing tends to be uniform: each sentence is roughly the same length and complexity, creating low burstiness. Detectors measure this variation (or lack of it) as an additional signal.</p>
+
+  <h2>The major AI detection tools compared</h2>
+  <table class="tool-table">
+    <thead>
+      <tr><th>Tool</th><th>Primary audience</th><th>Method</th><th>Reported accuracy</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>GPTZero</strong></td><td>Educators</td><td>Perplexity + burstiness scoring</td><td>~85% on clean AI text</td></tr>
+      <tr><td><strong>Turnitin AI</strong></td><td>Universities</td><td>Proprietary ML + similarity</td><td>~98% claimed, debated</td></tr>
+      <tr><td><strong>Originality.ai</strong></td><td>Publishers, SEO</td><td>Fine-tuned detection model</td><td>~94% on GPT-4 content</td></tr>
+      <tr><td><strong>Copyleaks</strong></td><td>Enterprises</td><td>Multi-model detection</td><td>~99% claimed</td></tr>
+      <tr><td><strong>ZeroGPT</strong></td><td>General public</td><td>Text analysis heuristics</td><td>Inconsistent in testing</td></tr>
+    </tbody>
+  </table>
+  <p><em>Note: Accuracy figures are self-reported or from limited testing. Real-world performance on edited or humanized text is significantly lower for all tools.</em></p>
+
+  <h2>The false positive problem</h2>
+  <p>This is the most important and least-discussed issue with AI detection: <strong>false positives are common and consequential.</strong></p>
+  <p>Research has consistently shown that certain types of human writing score very high on AI detection tools — not because they were AI-generated, but because they happen to share stylistic traits with AI output:</p>
+  <ul>
+    <li>Non-native English speakers, who write more simply and predictably</li>
+    <li>Students with formal academic training, who use structured, predictable essay formats</li>
+    <li>Technical writers, whose clarity-focused style resembles AI output</li>
+    <li>Writers in certain genres (how-to guides, product descriptions) that naturally follow predictable patterns</li>
+  </ul>
+  <p>A 2023 study found that GPTZero flagged over 50% of essays written by non-native English speakers as AI-generated. This is a serious problem when detection results are used to make academic misconduct decisions.</p>
+
+  <blockquote>
+    "AI detectors don't detect AI — they detect writing that resembles AI. That's a crucial distinction, and most institutions aren't making it clearly enough."
+  </blockquote>
+
+  <h2>What makes text harder to detect?</h2>
+  <p>Several factors consistently make AI-generated text harder for detection tools to catch:</p>
+  <ul>
+    <li><strong>Sentence length variation</strong> — Adding short and long sentences disrupts the low-burstiness signal</li>
+    <li><strong>Vocabulary specificity</strong> — Using concrete, specific words raises perplexity</li>
+    <li><strong>First-person voice</strong> — Personal anecdotes and opinions are harder to attribute to AI</li>
+    <li><strong>Editing</strong> — Even light human editing meaningfully reduces detection scores</li>
+    <li><strong>Humanizer tools</strong> — Tools like Humanizor restructure the text at the level that detectors measure</li>
+  </ul>
+
+  <h2>The arms race problem</h2>
+  <p>AI detection is fundamentally an arms race that detection tools are losing. As language models improve, their output naturally becomes harder to distinguish from human writing. Each new model generation produces more varied, nuanced text — and the detection tools trained on older model outputs are less accurate on new ones.</p>
+  <p>OpenAI released and then quietly retired its own AI classifier in 2023, noting it was "not reliable enough." Anthropic has not released a detection tool, citing similar concerns about accuracy.</p>
+
+  <h2>What this means for writers</h2>
+  <p>If you're a writer using AI tools for any purpose — whether that's drafting, editing, research, or brainstorming — the most important things to know are:</p>
+  <ol>
+    <li><strong>Detection tools are imperfect</strong> and produce false positives, especially for non-native speakers</li>
+    <li><strong>No tool can prove</strong> that text is AI-generated — only that it shares statistical properties with AI output</li>
+    <li><strong>Editing your AI drafts</strong> meaningfully reduces detection scores and, more importantly, improves writing quality</li>
+    <li><strong>Humanizer tools</strong> change the statistical properties that detectors measure — primarily perplexity and burstiness</li>
+  </ol>
+
+  <div class="tip">
+    <strong>Our recommendation</strong>
+    Use AI tools to accelerate and assist your writing, then genuinely edit and personalise the output. This produces better writing than either pure AI or pure manual effort — and it reflects your actual voice.
+  </div>
+
+  <div class="cta-box">
+    <h3>Make your writing sound naturally human</h3>
+    <p>Humanizor rewrites AI text to have natural variation, specific vocabulary, and human rhythm. Free, no sign-up required.</p>
+    <a href="/#tool" class="btn-primary">✦ Try Humanizor free</a>
+  </div>
+</div>
+
+<div class="ad-slot">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5536166511863260"
+    data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<div class="blog-nav">
+  <a href="../blog.html">← All articles</a>
+  <a href="how-to-humanize-ai-text.html">How to Humanize AI Text →</a>
+</div>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand"><span class="footer-brand-name">Humanizor</span><p>Free AI text humanizer and paraphraser.</p></div>
+    <div class="footer-col"><h4>Tool</h4><ul><li><a href="/#tool">Humanize AI</a></li><li><a href="/#tool">Paraphrase</a></li><li><a href="/#tool">Academic</a></li></ul></div>
+    <div class="footer-col"><h4>Company</h4><ul><li><a href="../about.html">About</a></li><li><a href="../blog.html">Blog</a></li><li><a href="../contact.html">Contact</a></li></ul></div>
+    <div class="footer-col"><h4>Legal</h4><ul><li><a href="../privacy.html">Privacy</a></li><li><a href="../terms.html">Terms</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><span>© 2025 Humanizor.</span><div class="powered"><span class="powered-dot"></span>Powered by Claude AI</div></div>
+</footer>
+<div id="toast"></div>
+</body>
+</html>
